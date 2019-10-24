@@ -17,7 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 960px;
+    /* width: 960px; */
     margin: 0 auto;
     word-spacing: 7px;
     color: #777777;
@@ -62,8 +62,8 @@ img {
 
   #content {
     line-height: 30px;
-    width: 960px;
-    margin: 0 auto;
+    /* width: 960px; */
+    margin: 75px;
     margin-top: 20px;
     margin-bottom: 100px;
     font-family: Arial, Helvetica, sans-serif;
@@ -73,7 +73,7 @@ img {
     color: #777777;
     flex: 1 0 auto;
     overflow: auto;
-    height:70%;
+    /* height:70%; */
     padding: 30px;
   }
 
