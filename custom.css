@@ -1,0 +1,105 @@
+body {
+    background: url('images/criss-cross.png');
+    }
+
+h1 {
+    background-color: #4aaaa5;
+    width: 300px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 960px;
+    margin: 0 auto;
+    word-spacing: 7px;
+    color: #777777;
+}
+
+#box {
+    background-color: white;
+    border-bottom-style: solid;
+    color: lightgrey;
+}
+
+img {
+    float: left;
+    height: 150px;
+    width: 150px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #bodytitle {
+    color: #4aaaa5;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    margin: 10px;
+  }
+
+  #paragraph {
+    margin: 10px;
+
+  }
+
+  #content {
+    line-height: 30px;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: 2px solid #dddddd;
+    background-color: #ffffff;
+    color: #777777;
+    flex: 1 0 auto;
+    overflow: auto;
+    height:70%;
+    padding: 30px;
+  }
+
+  footer {
+    left:0;
+    bottom: 0;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    text-align: center;
+    color: lightgray;
+    flex-shrink: 0;
+    height: 10%;
+  }
+
+  .nav-link {
+    color: #666666;
+  }
+
+  .nav-items {
+      border-left-color: #777777;
+      border-left-style: solid;
+      border-left-width: thin;
+      border-right-color: #777777;
+      border-right-style: solid;
+      border-right-width: thin;
+  }
+
+  
