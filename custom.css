@@ -2,7 +2,7 @@ body {
     background: url('images/criss-cross.png');
     }
 
-h1 {
+.navbar-brand {
     background-color: #4aaaa5;
     width: 300px;
     text-align: center;
@@ -23,10 +23,14 @@ header {
     color: #777777;
 }
 
-#box {
+.box {
     background-color: white;
     border-bottom-style: solid;
     color: lightgrey;
+}
+
+.navbar-toggler {
+  display: inline-block;
 }
 
 img {
