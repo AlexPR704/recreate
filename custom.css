@@ -1,5 +1,6 @@
 body {
     background: url('images/criss-cross.png');
+    margin-bottom: 60px;
     }
 
 .navbar-brand {
@@ -31,24 +32,12 @@ header {
     color: lightgrey;
 }
 
-.navbar-toggler {
-  display: inline-block;
-}
 
 img {
     float: left;
     padding-right: 10px;
   }
   
-  /* html, body {
-    height: 100%;
-  } */
-
-  /* body {
-    display: flex;
-    flex-direction: column;
-  } */
-
   #bodytitle {
     color: #4aaaa5;
     border-bottom-style: solid;
@@ -76,10 +65,7 @@ img {
     position: relative;
     min-height: 100%;
    }
-   body {
-    /* Margin bottom by footer height */
-    margin-bottom: 60px;
-   }
+
    .footer {
     position: absolute;
     bottom: 0;
@@ -94,15 +80,6 @@ img {
 
   .nav-link {
     color: #666666;
-  }
-
-  .nav-items {
-      border-left-color: #777777;
-      border-left-style: solid;
-      border-left-width: thin;
-      border-right-color: #777777;
-      border-right-style: solid;
-      border-right-width: thin;
   }
 
   h2 {
